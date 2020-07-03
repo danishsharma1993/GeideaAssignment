@@ -4,6 +4,6 @@ import android.util.Log
 
 class Test {
     fun show() {
-        Log.d("Test1", "Test1.1")
+        Log.d("Test1", "Test1")
     }
 }
