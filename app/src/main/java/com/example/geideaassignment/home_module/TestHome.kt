@@ -4,6 +4,6 @@ import android.util.Log
 
 class TestHome {
     fun showHome() {
-        Log.d("TestHome1", "TestHome1")
+        Log.d("TestHome1", "TestHome1.1")
     }
 }
