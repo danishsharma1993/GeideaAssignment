@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="employeeViewmodel"
+            type="com.example.geideaassignment.viewmodel.EmployeeDetailViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_emp_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{employeeViewmodel.empID}"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_emp_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{employeeViewmodel.empName}"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_emp_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{employeeViewmodel.empAge}"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_emp_salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{employeeViewmodel.empSalary}"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </LinearLayout>
+</layout>
